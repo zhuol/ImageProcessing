@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Zhuo/Downloads/Code/cropper-master/cropper/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black_translucent">#50000000</color>
+    <!-- From: file:/C:/Users/Zhuo/Downloads/Code/cropper-master/cropper/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Zhuo/Downloads/Code/cropper-master/cropper/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Cropper</string>
+    <!-- From: file:/C:/Users/Zhuo/Downloads/Code/cropper-master/cropper/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

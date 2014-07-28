@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Zhuo\Downloads\Code\ImageProcessing\ImageProcessor\build\intermediates\pre-dexed\debug\classes-c9d1e46297c4634dbfdb164bf9c053b400f81127.jar"
+        jar="C:\Users\Zhuo\Downloads\Code\ImageProcessing\ImageProcessor\build\intermediates\exploded-aar\ImageProcessing\cropper\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="11cd8afc2b220334bb373068feff3a6df7753763"/>
+    <item
+        dex="C:\Users\Zhuo\Downloads\Code\cropper-master\CropperSample\build\intermediates\pre-dexed\debug\classes-91404189da2e6272f5fff888f1cda45bd278f4f5.jar"
+        jar="C:\Users\Zhuo\Downloads\Code\cropper-master\build\intermediates\exploded-aar\cropper-master\cropper\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f6b50ba447020001d12207bb0b5479125974503f"/>
+
+</pre-dex-items>

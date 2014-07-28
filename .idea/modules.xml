@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImageProcessing.iml" filepath="$PROJECT_DIR$/ImageProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageProcessor/ImageProcessor.iml" filepath="$PROJECT_DIR$/ImageProcessor/ImageProcessor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+    </modules>
+  </component>
+</project>
+
