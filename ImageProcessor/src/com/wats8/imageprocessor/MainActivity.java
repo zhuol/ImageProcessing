@@ -4,6 +4,7 @@ package com.wats8.imageprocessor;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
@@ -41,6 +42,7 @@ import java.util.Calendar;
 public class MainActivity extends Activity {
 
     // Static final constants
+    private static final int SELECT_PICTURE = 1;
     private static final int DEFAULT_ASPECT_RATIO_VALUES = 10;
     private static final int ROTATE_NINETY_DEGREES = 90;
     private static final String ASPECT_RATIO_X = "ASPECT_RATIO_X";
@@ -82,6 +84,18 @@ public class MainActivity extends Activity {
 
         // Initialize components of the app
         final CropImageView cropImageView = (CropImageView) findViewById(R.id.CropImageView);
+        cropImageView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(Intent.createChooser(intent,
+                        "Select Picture"), SELECT_PICTURE);
+            }
+        });
+
         final SeekBar aspectRatioXSeek = (SeekBar) findViewById(R.id.aspectRatioXSeek);
         final SeekBar aspectRatioYSeek = (SeekBar) findViewById(R.id.aspectRatioYSeek);
         final ToggleButton fixedAspectRatioToggle = (ToggleButton) findViewById(R.id.fixedAspectRatioToggle);
@@ -259,10 +273,12 @@ public class MainActivity extends Activity {
     // Used to save image
     @TargetApi(Build.VERSION_CODES.FROYO)
     public void savePhoto(Bitmap bmp) {
-        File imageFileFolder = new File(Environment.getExternalStorageDirectory()
+        /*File imageFileFolder = new File(Environment.getExternalStorageDirectory()
                 + "/Android/data/"
                 + getApplicationContext().getPackageName()
-                + "/Pictures"); //new File(Environment.getExternalStorageDirectory(), "ImageProcessor");
+                + "/Pictures"); //new File(Environment.getExternalStorageDirectory(), "ImageProcessor");*/
+        File imageFileFolder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
+                getApplicationContext().getPackageName() + "/Pictures");
         if (!imageFileFolder.exists()) {
             imageFileFolder.mkdirs();
         }
@@ -279,16 +295,17 @@ public class MainActivity extends Activity {
         File imageFileName = new File(imageFileFolder, date.toString() + ".jpg");
         try {
             out = new FileOutputStream(imageFileName);
+            //out = getApplicationContext().openFileOutput(date.toString(), Context.MODE_PRIVATE);
+
             bmp.compress(Bitmap.CompressFormat.JPEG, 100, out);
             out.flush();
             out.close();
-            out = null;
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         // Dame?? Have to close stream or shit first?
-        //saveIntoGallery(imageFileName.getPath());
+        saveIntoGallery(imageFileName.getAbsolutePath());
     }
 
     private String fromInt(int val) {
@@ -296,7 +313,8 @@ public class MainActivity extends Activity {
     }
 
     public void saveIntoGallery(String mCurrentPhotoPath) {
-        Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+        //Save into Gallery
+        Intent mediaScanIntent = new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE");
         File f = new File(mCurrentPhotoPath);
         Uri contentUri = Uri.fromFile(f);
         mediaScanIntent.setData(contentUri);
