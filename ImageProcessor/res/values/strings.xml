@@ -16,7 +16,6 @@
     <string name="hideShowCrop">Hide/Show</string>
     <string name="saveCropper">Save</string>
 
-
     <string-array name="showGuidelinesArray">
         <item>Off</item>
         <item>On Touch</item>
@@ -163,4 +162,8 @@
     <color name="DarkBlue">#00008B</color>
     <color name="Navy">#000080</color>
     <color name="Black">#000000</color>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>

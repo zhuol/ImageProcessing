@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KiipSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/KiipSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

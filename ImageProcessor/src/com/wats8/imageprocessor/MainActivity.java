@@ -39,7 +39,10 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Calendar;
 
-public class MainActivity extends Activity {
+import me.kiip.sdk.Kiip;
+import me.kiip.sdk.Poptart;
+
+public class MainActivity extends BaseActivity {
 
     // Static final constants
     private static final int SELECT_PICTURE = 1;
@@ -306,18 +309,43 @@ public class MainActivity extends Activity {
 
         // Dame?? Have to close stream or shit first?
         saveIntoGallery(imageFileName.getAbsolutePath());
+
+        callKiipDamn();
     }
 
     private String fromInt(int val) {
         return String.valueOf(val);
     }
 
-    public void saveIntoGallery(String mCurrentPhotoPath) {
+    private void saveIntoGallery(String mCurrentPhotoPath) {
         //Save into Gallery
         Intent mediaScanIntent = new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE");
         File f = new File(mCurrentPhotoPath);
         Uri contentUri = Uri.fromFile(f);
         mediaScanIntent.setData(contentUri);
         this.sendBroadcast(mediaScanIntent);
+    }
+
+    private void callKiipDamn(){
+        Kiip.getInstance().saveMoment("SB_Moment", new Kiip.Callback() {
+            @Override
+            public void onFinished(Kiip kiip, Poptart reward) {
+                onPoptart(reward);
+            }
+
+            @Override
+            public void onFailed(Kiip kiip, Exception exception) {
+                // handle failure
+            }
+        });
+
+        Kiip.OnContentListener onContentListener = new Kiip.OnContentListener() {
+            @Override
+            public void onContent(Kiip kiip, String momentId, int quantity, String transactionId,
+                                  String signature) {
+                // Handle receiving virtual reward. Increment users wallet with quantity etc.
+            }
+        };
+        Kiip.getInstance().setOnContentListener(onContentListener);
     }
 }
