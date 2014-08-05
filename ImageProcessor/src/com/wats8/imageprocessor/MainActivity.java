@@ -307,7 +307,7 @@ public class MainActivity extends BaseActivity {
             e.printStackTrace();
         }
 
-        // Dame?? Have to close stream or shit first?
+        // Update image into gallery by using public directory and absolute path
         saveIntoGallery(imageFileName.getAbsolutePath());
 
         callKiipDamn();
