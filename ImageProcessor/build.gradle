@@ -2,7 +2,6 @@ apply plugin: 'android'
 
 dependencies {
     compile project(':cropper')
-    compile files('C:/Users/zhuol/Downloads/Code/ImageProcessing/lib/KiipSDK.jar')
     compile 'com.android.support:appcompat-v7:19.+'
 }
 

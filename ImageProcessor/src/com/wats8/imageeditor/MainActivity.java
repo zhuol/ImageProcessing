@@ -1,20 +1,15 @@
 
-package com.wats8.imageprocessor;
+package com.wats8.imageeditor;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
-import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,15 +29,12 @@ import android.widget.ToggleButton;
 
 import com.edmodo.cropper.CropImageView;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Calendar;
 
-import me.kiip.sdk.Kiip;
-import me.kiip.sdk.Poptart;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends Activity {
 
     // Static final constants
     private static final int SELECT_PICTURE = 1;
@@ -309,8 +301,6 @@ public class MainActivity extends BaseActivity {
 
         // Update image into gallery by using public directory and absolute path
         saveIntoGallery(imageFileName.getAbsolutePath());
-
-        callKiipDamn();
     }
 
     private String fromInt(int val) {
@@ -324,28 +314,5 @@ public class MainActivity extends BaseActivity {
         Uri contentUri = Uri.fromFile(f);
         mediaScanIntent.setData(contentUri);
         this.sendBroadcast(mediaScanIntent);
-    }
-
-    private void callKiipDamn(){
-        Kiip.getInstance().saveMoment("SB_Moment", new Kiip.Callback() {
-            @Override
-            public void onFinished(Kiip kiip, Poptart reward) {
-                onPoptart(reward);
-            }
-
-            @Override
-            public void onFailed(Kiip kiip, Exception exception) {
-                // handle failure
-            }
-        });
-
-        Kiip.OnContentListener onContentListener = new Kiip.OnContentListener() {
-            @Override
-            public void onContent(Kiip kiip, String momentId, int quantity, String transactionId,
-                                  String signature) {
-                // Handle receiving virtual reward. Increment users wallet with quantity etc.
-            }
-        };
-        Kiip.getInstance().setOnContentListener(onContentListener);
     }
 }

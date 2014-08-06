@@ -216,7 +216,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010004
         };
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#aspectRatioX}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#aspectRatioX}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -230,7 +230,7 @@ containing a value of this type.
         */
         public static final int CropImageView_aspectRatioX = 2;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#aspectRatioY}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#aspectRatioY}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -244,7 +244,7 @@ containing a value of this type.
         */
         public static final int CropImageView_aspectRatioY = 3;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#fixAspectRatio}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#fixAspectRatio}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -258,7 +258,7 @@ containing a value of this type.
         */
         public static final int CropImageView_fixAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#guidelines}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#guidelines}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -276,7 +276,7 @@ containing a value of this type.
         */
         public static final int CropImageView_guidelines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#imageResource}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#imageResource}
           attribute's value can be found in the {@link #CropImageView} array.
 
 

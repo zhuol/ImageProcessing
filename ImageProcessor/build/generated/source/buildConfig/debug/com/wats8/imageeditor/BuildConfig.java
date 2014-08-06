@@ -1,11 +1,11 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.wats8.imageprocessor;
+package com.wats8.imageeditor;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String PACKAGE_NAME = "com.wats8.imageprocessor";
+  public static final String PACKAGE_NAME = "com.wats8.imageeditor";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 1;

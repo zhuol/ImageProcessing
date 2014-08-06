@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.wats8.imageprocessor;
+package com.wats8.imageeditor;
 
 public final class R {
     public static final class anim {
@@ -1115,9 +1115,6 @@ containing a value of this type.
         public static final int attack=0x7f020057;
         public static final int attackontitan=0x7f020058;
         public static final int ic_launcher=0x7f020059;
-        public static final int kp_activity_indicator=0x7f02005a;
-        public static final int kp_cancel_video=0x7f02005b;
-        public static final int kp_play_video=0x7f02005c;
     }
     public static final class id {
         public static final int Button_HideShowCopper=0x7f080054;
@@ -1238,14 +1235,12 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_base=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int crop_image_view=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_main=0x7f030018;
+        public static final int crop_image_view=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
-        public static final int base=0x7f0d0000;
-        public static final int main=0x7f0d0001;
+        public static final int main=0x7f0d0000;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;
@@ -1437,27 +1432,27 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.wats8.imageprocessor:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.wats8.imageprocessor:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.wats8.imageprocessor:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.wats8.imageprocessor:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.wats8.imageprocessor:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.wats8.imageprocessor:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_height com.wats8.imageprocessor:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.wats8.imageprocessor:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.wats8.imageprocessor:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.wats8.imageprocessor:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.wats8.imageprocessor:itemPadding}</code></td><td>
+           <tr><td><code>{@link #ActionBar_background com.wats8.imageeditor:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.wats8.imageeditor:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.wats8.imageeditor:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.wats8.imageeditor:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.wats8.imageeditor:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.wats8.imageeditor:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_height com.wats8.imageeditor:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.wats8.imageeditor:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.wats8.imageeditor:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.wats8.imageeditor:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.wats8.imageeditor:itemPadding}</code></td><td>
              Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.wats8.imageprocessor:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.wats8.imageprocessor:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.wats8.imageprocessor:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.wats8.imageprocessor:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.wats8.imageprocessor:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.wats8.imageprocessor:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title com.wats8.imageprocessor:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.wats8.imageprocessor:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.wats8.imageeditor:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.wats8.imageeditor:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.wats8.imageeditor:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.wats8.imageeditor:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.wats8.imageeditor:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.wats8.imageeditor:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title com.wats8.imageeditor:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.wats8.imageeditor:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -1495,7 +1490,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:background
+          @attr name com.wats8.imageeditor:background
         */
         public static final int ActionBar_background = 10;
         /**
@@ -1509,7 +1504,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:backgroundSplit
+          @attr name com.wats8.imageeditor:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
@@ -1523,7 +1518,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:backgroundStacked
+          @attr name com.wats8.imageeditor:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
@@ -1535,7 +1530,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:customNavigationLayout
+          @attr name com.wats8.imageeditor:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
@@ -1558,7 +1553,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:displayOptions
+          @attr name com.wats8.imageeditor:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
@@ -1570,7 +1565,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:divider
+          @attr name com.wats8.imageeditor:divider
         */
         public static final int ActionBar_divider = 9;
         /**
@@ -1588,7 +1583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:height
+          @attr name com.wats8.imageeditor:height
         */
         public static final int ActionBar_height = 0;
         /**
@@ -1600,7 +1595,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:homeLayout
+          @attr name com.wats8.imageeditor:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
@@ -1612,7 +1607,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:icon
+          @attr name com.wats8.imageeditor:icon
         */
         public static final int ActionBar_icon = 7;
         /**
@@ -1624,7 +1619,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:indeterminateProgressStyle
+          @attr name com.wats8.imageeditor:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
@@ -1645,7 +1640,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:itemPadding
+          @attr name com.wats8.imageeditor:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
@@ -1657,7 +1652,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:logo
+          @attr name com.wats8.imageeditor:logo
         */
         public static final int ActionBar_logo = 8;
         /**
@@ -1677,7 +1672,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:navigationMode
+          @attr name com.wats8.imageeditor:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
@@ -1695,7 +1690,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:progressBarPadding
+          @attr name com.wats8.imageeditor:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
@@ -1707,7 +1702,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:progressBarStyle
+          @attr name com.wats8.imageeditor:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
@@ -1723,7 +1718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:subtitle
+          @attr name com.wats8.imageeditor:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
@@ -1735,7 +1730,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:subtitleTextStyle
+          @attr name com.wats8.imageeditor:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
@@ -1751,7 +1746,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:title
+          @attr name com.wats8.imageeditor:title
         */
         public static final int ActionBar_title = 1;
         /**
@@ -1763,7 +1758,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:titleTextStyle
+          @attr name com.wats8.imageeditor:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -1791,21 +1786,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.wats8.imageprocessor:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.wats8.imageprocessor:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.wats8.imageprocessor:windowFixedHeightMajor}</code></td><td>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.wats8.imageeditor:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.wats8.imageeditor:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.wats8.imageeditor:windowFixedHeightMajor}</code></td><td>
              A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.wats8.imageprocessor:windowFixedHeightMinor}</code></td><td>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.wats8.imageeditor:windowFixedHeightMinor}</code></td><td>
              A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.wats8.imageprocessor:windowFixedWidthMajor}</code></td><td>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.wats8.imageeditor:windowFixedWidthMajor}</code></td><td>
              A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.wats8.imageprocessor:windowFixedWidthMinor}</code></td><td>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.wats8.imageeditor:windowFixedWidthMinor}</code></td><td>
              A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.wats8.imageprocessor:windowSplitActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.wats8.imageeditor:windowSplitActionBar}</code></td><td></td></tr>
            </table>
            @see #ActionBarWindow_windowActionBar
            @see #ActionBarWindow_windowActionBarOverlay
@@ -1820,7 +1815,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010054, 0x7f010055, 0x7f010056
         };
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#windowActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1830,11 +1825,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:windowActionBar
+          @attr name com.wats8.imageeditor:windowActionBar
         */
         public static final int ActionBarWindow_windowActionBar = 0;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1844,7 +1839,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:windowActionBarOverlay
+          @attr name com.wats8.imageeditor:windowActionBarOverlay
         */
         public static final int ActionBarWindow_windowActionBarOverlay = 1;
         /**
@@ -1869,7 +1864,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:windowFixedHeightMajor
+          @attr name com.wats8.imageeditor:windowFixedHeightMajor
         */
         public static final int ActionBarWindow_windowFixedHeightMajor = 6;
         /**
@@ -1894,7 +1889,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:windowFixedHeightMinor
+          @attr name com.wats8.imageeditor:windowFixedHeightMinor
         */
         public static final int ActionBarWindow_windowFixedHeightMinor = 4;
         /**
@@ -1919,7 +1914,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:windowFixedWidthMajor
+          @attr name com.wats8.imageeditor:windowFixedWidthMajor
         */
         public static final int ActionBarWindow_windowFixedWidthMajor = 3;
         /**
@@ -1944,11 +1939,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:windowFixedWidthMinor
+          @attr name com.wats8.imageeditor:windowFixedWidthMinor
         */
         public static final int ActionBarWindow_windowFixedWidthMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#windowSplitActionBar}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#windowSplitActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1958,7 +1953,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:windowSplitActionBar
+          @attr name com.wats8.imageeditor:windowSplitActionBar
         */
         public static final int ActionBarWindow_windowSplitActionBar = 2;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -1991,11 +1986,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.wats8.imageprocessor:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.wats8.imageprocessor:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_height com.wats8.imageprocessor:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.wats8.imageprocessor:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.wats8.imageprocessor:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background com.wats8.imageeditor:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.wats8.imageeditor:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_height com.wats8.imageeditor:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.wats8.imageeditor:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.wats8.imageeditor:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2016,7 +2011,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:background
+          @attr name com.wats8.imageeditor:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -2030,7 +2025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:backgroundSplit
+          @attr name com.wats8.imageeditor:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -2048,7 +2043,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:height
+          @attr name com.wats8.imageeditor:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -2060,7 +2055,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:subtitleTextStyle
+          @attr name com.wats8.imageeditor:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -2072,7 +2067,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:titleTextStyle
+          @attr name com.wats8.imageeditor:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2081,9 +2076,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.wats8.imageprocessor:expandActivityOverflowButtonDrawable}</code></td><td>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.wats8.imageeditor:expandActivityOverflowButtonDrawable}</code></td><td>
              The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.wats8.imageprocessor:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.wats8.imageeditor:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2106,7 +2101,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:expandActivityOverflowButtonDrawable
+          @attr name com.wats8.imageeditor:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -2122,7 +2117,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:initialActivityCount
+          @attr name com.wats8.imageeditor:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -2131,7 +2126,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.wats8.imageprocessor:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.wats8.imageeditor:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2148,7 +2143,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:textAllCaps
+          @attr name com.wats8.imageeditor:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a CropImageView.
@@ -2157,11 +2152,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CropImageView_aspectRatioX com.wats8.imageprocessor:aspectRatioX}</code></td><td></td></tr>
-           <tr><td><code>{@link #CropImageView_aspectRatioY com.wats8.imageprocessor:aspectRatioY}</code></td><td></td></tr>
-           <tr><td><code>{@link #CropImageView_fixAspectRatio com.wats8.imageprocessor:fixAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #CropImageView_guidelines com.wats8.imageprocessor:guidelines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CropImageView_imageResource com.wats8.imageprocessor:imageResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #CropImageView_aspectRatioX com.wats8.imageeditor:aspectRatioX}</code></td><td></td></tr>
+           <tr><td><code>{@link #CropImageView_aspectRatioY com.wats8.imageeditor:aspectRatioY}</code></td><td></td></tr>
+           <tr><td><code>{@link #CropImageView_fixAspectRatio com.wats8.imageeditor:fixAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #CropImageView_guidelines com.wats8.imageeditor:guidelines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CropImageView_imageResource com.wats8.imageeditor:imageResource}</code></td><td></td></tr>
            </table>
            @see #CropImageView_aspectRatioX
            @see #CropImageView_aspectRatioY
@@ -2174,7 +2169,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01005e
         };
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#aspectRatioX}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#aspectRatioX}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -2184,11 +2179,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:aspectRatioX
+          @attr name com.wats8.imageeditor:aspectRatioX
         */
         public static final int CropImageView_aspectRatioX = 2;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#aspectRatioY}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#aspectRatioY}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -2198,11 +2193,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:aspectRatioY
+          @attr name com.wats8.imageeditor:aspectRatioY
         */
         public static final int CropImageView_aspectRatioY = 3;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#fixAspectRatio}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#fixAspectRatio}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -2212,11 +2207,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.wats8.imageprocessor:fixAspectRatio
+          @attr name com.wats8.imageeditor:fixAspectRatio
         */
         public static final int CropImageView_fixAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#guidelines}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#guidelines}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
@@ -2230,17 +2225,17 @@ containing a value of this type.
 <tr><td><code>onTouch</code></td><td>1</td><td></td></tr>
 <tr><td><code>off</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.wats8.imageprocessor:guidelines
+          @attr name com.wats8.imageeditor:guidelines
         */
         public static final int CropImageView_guidelines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.wats8.imageprocessor.R.attr#imageResource}
+          <p>This symbol is the offset where the {@link com.wats8.imageeditor.R.attr#imageResource}
           attribute's value can be found in the {@link #CropImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.wats8.imageprocessor:imageResource
+          @attr name com.wats8.imageeditor:imageResource
         */
         public static final int CropImageView_imageResource = 4;
         /** Attributes that can be used with a LinearLayoutICS.
@@ -2249,9 +2244,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LinearLayoutICS_divider com.wats8.imageprocessor:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.wats8.imageprocessor:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_showDividers com.wats8.imageprocessor:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_divider com.wats8.imageeditor:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.wats8.imageeditor:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_showDividers com.wats8.imageeditor:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutICS_divider
            @see #LinearLayoutICS_dividerPadding
@@ -2269,7 +2264,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:divider
+          @attr name com.wats8.imageeditor:divider
         */
         public static final int LinearLayoutICS_divider = 0;
         /**
@@ -2287,7 +2282,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:dividerPadding
+          @attr name com.wats8.imageeditor:dividerPadding
         */
         public static final int LinearLayoutICS_dividerPadding = 2;
         /**
@@ -2308,7 +2303,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:showDividers
+          @attr name com.wats8.imageeditor:showDividers
         */
         public static final int LinearLayoutICS_showDividers = 1;
         /** Attributes that can be used with a MenuGroup.
@@ -2403,12 +2398,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.wats8.imageprocessor:actionLayout}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionLayout com.wats8.imageeditor:actionLayout}</code></td><td>
              An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.wats8.imageprocessor:actionProviderClass}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.wats8.imageeditor:actionProviderClass}</code></td><td>
              The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.wats8.imageprocessor:actionViewClass}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.wats8.imageeditor:actionViewClass}</code></td><td>
              The name of an optional View class to instantiate and use as an
              action view.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td>
@@ -2433,7 +2428,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td>
              The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.wats8.imageprocessor:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.wats8.imageeditor:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -2473,7 +2468,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:actionLayout
+          @attr name com.wats8.imageeditor:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
@@ -2494,7 +2489,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:actionProviderClass
+          @attr name com.wats8.imageeditor:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
@@ -2514,7 +2509,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:actionViewClass
+          @attr name com.wats8.imageeditor:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -2696,7 +2691,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:showAsAction
+          @attr name com.wats8.imageeditor:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -2807,9 +2802,9 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.wats8.imageprocessor:iconifiedByDefault}</code></td><td>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.wats8.imageeditor:iconifiedByDefault}</code></td><td>
              The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.wats8.imageprocessor:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.wats8.imageeditor:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
            </table>
            @see #SearchView_android_imeOptions
            @see #SearchView_android_inputType
@@ -2864,7 +2859,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:iconifiedByDefault
+          @attr name com.wats8.imageeditor:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 3;
         /**
@@ -2880,7 +2875,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:queryHint
+          @attr name com.wats8.imageeditor:queryHint
         */
         public static final int SearchView_queryHint = 4;
         /** Attributes that can be used with a Spinner.
@@ -2899,14 +2894,14 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.wats8.imageprocessor:disableChildrenWhenDisabled}</code></td><td>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.wats8.imageeditor:disableChildrenWhenDisabled}</code></td><td>
              Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled.</td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.wats8.imageprocessor:popupPromptView}</code></td><td>
+           <tr><td><code>{@link #Spinner_popupPromptView com.wats8.imageeditor:popupPromptView}</code></td><td>
              Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.wats8.imageprocessor:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.wats8.imageprocessor:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.wats8.imageeditor:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.wats8.imageeditor:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
            @see #Spinner_android_dropDownHorizontalOffset
            @see #Spinner_android_dropDownSelector
@@ -3000,7 +2995,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:disableChildrenWhenDisabled
+          @attr name com.wats8.imageeditor:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 9;
         /**
@@ -3016,7 +3011,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:popupPromptView
+          @attr name com.wats8.imageeditor:popupPromptView
         */
         public static final int Spinner_popupPromptView = 8;
         /**
@@ -3028,7 +3023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:prompt
+          @attr name com.wats8.imageeditor:prompt
         */
         public static final int Spinner_prompt = 6;
         /**
@@ -3050,7 +3045,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:spinnerMode
+          @attr name com.wats8.imageeditor:spinnerMode
         */
         public static final int Spinner_spinnerMode = 7;
         /** Attributes that can be used with a Theme.
@@ -3059,12 +3054,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.wats8.imageprocessor:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.wats8.imageprocessor:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.wats8.imageprocessor:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.wats8.imageprocessor:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.wats8.imageprocessor:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.wats8.imageprocessor:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.wats8.imageeditor:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.wats8.imageeditor:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.wats8.imageeditor:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.wats8.imageeditor:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.wats8.imageeditor:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.wats8.imageeditor:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
            </table>
            @see #Theme_actionDropDownStyle
            @see #Theme_dropdownListPreferredItemHeight
@@ -3086,7 +3081,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:actionDropDownStyle
+          @attr name com.wats8.imageeditor:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 0;
         /**
@@ -3104,7 +3099,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:dropdownListPreferredItemHeight
+          @attr name com.wats8.imageeditor:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 1;
         /**
@@ -3116,7 +3111,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:listChoiceBackgroundIndicator
+          @attr name com.wats8.imageeditor:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 5;
         /**
@@ -3128,7 +3123,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:panelMenuListTheme
+          @attr name com.wats8.imageeditor:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 4;
         /**
@@ -3146,7 +3141,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:panelMenuListWidth
+          @attr name com.wats8.imageeditor:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 3;
         /**
@@ -3158,7 +3153,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:popupMenuStyle
+          @attr name com.wats8.imageeditor:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 2;
         /** Attributes that can be used with a View.
@@ -3169,8 +3164,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td>
              Boolean that controls whether a view can take focus.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.wats8.imageprocessor:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart com.wats8.imageprocessor:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.wats8.imageeditor:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart com.wats8.imageeditor:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -3210,7 +3205,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:paddingEnd
+          @attr name com.wats8.imageeditor:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
@@ -3228,7 +3223,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.wats8.imageprocessor:paddingStart
+          @attr name com.wats8.imageeditor:paddingStart
         */
         public static final int View_paddingStart = 1;
     };
