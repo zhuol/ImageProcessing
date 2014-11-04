@@ -9,14 +9,15 @@
     <LinearLayout
         android:id="@+id/mylayout"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:gravity="left">
 
         <!--<TextView
             android:id="@+id/title"
@@ -33,7 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            custom:imageResource="@drawable/attack" />
+            custom:imageResource="@drawable/attack"
+            android:longClickable="true" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,7 +96,8 @@
                     android:id="@+id/fixedAspectRatioToggle"
                     style="@style/RoboTheme"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:enabled="true" />
             </LinearLayout>
         </LinearLayout>
 
@@ -204,17 +207,16 @@
             android:id="@+id/Buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:focusableInTouchMode="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
 
             <Button
                 android:id="@+id/Button_rotate"
                 style="@style/RoboTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="20dp"
                 android:text="@string/rotate" />
 
             <Button
@@ -222,8 +224,6 @@
                 style="@style/RoboTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="20dp"
                 android:text="@string/crop" />
 
             <Button
@@ -231,8 +231,6 @@
                 style="@style/RoboTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="20dp"
                 android:text="@string/hideShowCrop" />
 
             <Button
@@ -240,8 +238,6 @@
                 style="@style/RoboTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="20dp"
                 android:text="@string/saveCropper" />
 
         </LinearLayout>
